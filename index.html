@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <title> Котячий вісник</title>
 </head>
-<! заголовок
+<!--заголовок-->
+
+<!-- основна-->
+<body>
 <header>
     <h1 id="start"> Вас вітає "Котячий вісник" </h1>
     <img src="img/рудий.png" alt="red cat">
@@ -15,8 +18,6 @@
         </ul>
     </nav>
 </header>
-<! основна
-<body>
 <main>
     <div>
 <h1>15 цікавих фактів про котів</h1>
@@ -108,18 +109,52 @@
 </div>
 
 <h3> Нам цікаво познайомитись з вашим улюбленцем </h3>
-<form action="http://" method="post"></form>
+<form action="https://example.com/submit" method="post">
+    <label for="name" >Імя улюбленця</label>
+    <input id="name" type="text" name="name" placeholder="Імя">
+    <label for="breed">Порода улюбленця</label>
+    <input id="breed" type="text" name="breed" placeholder="Порода">
+    <label for="age">Скільки років вашому улюбленцю</label>
+   <select id="age" name="age">
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="Більше 6ти...">Більше 6ти...</option>
+       </select>
+    <!--
+    <h3>Стать улюбленця</h3>
+    <label> Жіноча</label>
+    <input type="radio" name="catsex">
+    <label> Чоловіча </label>
+    <input type="radio" name="catsex">
+    <h3>Ваша стать</h3>
+    <label> Жіноча</label>
+    <input type="radio"  name="yoursex">
+    <label> Чоловіча </label>
+    <input type="radio" name="yoursex">
+
+  <h3> Даю згоду на обробку інформації </h3>
+    <label>Так</label>
+    <input type="checkbox" name="concert">
+    <label >Ні</label>
+    <input type="checkbox" name="concert">
+
+-->
+</form>
     <nav>
     <a href="#start"> На початок сторінки </a>
     </nav>
 </main>
+<footer>
+    <div>
+            <a href=https://www.instagram.com/> Котячий вісник в інстаграм</a>
+        <br>
+        <p> Котячий вісник. Всі права захищені. 2025</p>
+    </div>
+</footer>
 </body>
 
-    <footer>
-        <div>
 
-            <nav><a href=https://www.instagram.com/> Котячий вісник в інстаграм</a></nav>
-            <p> Котячий вісник. Всі права захищені. 2025</p>
-        </div>
-    </footer>
 </html>
