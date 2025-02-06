@@ -2,15 +2,15 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title> Котячий вісник</title>
+    <title class="bold"> Котячий вісник</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<!--заголовок-->
 
 <!-- основна-->
-<body style="background-color: coral">
+<body>
 <header>
-    <h1 id="start" style="background-color:DodgerBlue;" stguyle="color:yellow;"> Вас вітає "Котячий вісник" </h1>
-    <img src="img/рудий.png" alt="red cat">
+    <h1 id="start"> Вас вітає "Котячий вісник" </h1>
+    <img src="img/рудий.png" alt="image red cat">
     <nav>
         <ul>
             <li><a href="#Home"> Головна</a></li>
@@ -19,9 +19,9 @@
     </nav>
 </header>
 <main>
-    <div>
-        <h1>15 цікавих фактів про котів</h1>
-        <img src="img/cats1.jpg" alt="3cats">
+    <div class="div1">
+        <h2>15 цікавих фактів про котів</h2>
+        <img src="img/cats1.jpg" alt="image of several drawn cats">
         <p>Коти — це одні з найпопулярніших свійських тварин у світі. Вони мають багато цікавих особливостей та
             здібностей, про які можна розповісти дітям.</p>
         <h2>Чи знали ви це?</h2>
@@ -48,10 +48,10 @@
                 кількості світла, щоби бачити в темряві.
             </li>
         </ol>
-        <img src="img/czikavi-fakty-pro-kotiv-2-1024x512.jpeg.webp" alt="лапки котів">
+        <img src="img/czikavi-fakty-pro-kotiv-2-1024x512.jpeg.webp" alt="image of cat paws">
     </div>
 
-    <div>
+    <div class="div2">
 
         <h2>Хочете знати більше? У Діснейленді живе понад 200 котів!!</h2>
         Незабаром після відкриття Діснейленду в 1955 році Уолт Дісней виявив, що група диких котів почала жити в
@@ -69,7 +69,7 @@
         <p>Домашні коти існують тисячі років. У 2014 році археологи знайшли шість скелетів котів, похованих разом із
             їхніми батьками на єгипетському кладовищі, яке датується між 3600 та 3800 роками до нашої ери!</p>
         <h2>Коти люблять грати</h2>
-        <p>Кожен кіт має унікальний характер, але всі вони мають подібні інстинкти до гри. Ігри для кота — це не
+        <p class="bold">Кожен кіт має унікальний характер, але всі вони мають подібні інстинкти до гри. Ігри для кота — це не
             лише відганяння нудьги, а й можливість розвинути свої природні інстинкти.
 
             Кішки можуть витрачати більшу частину свого дня на сон, але періоди активності важливі. У дикій природі гра
@@ -108,7 +108,7 @@
         </table>
     </div>
 
-    <h3> Нам цікаво познайомитись з вашим улюбленцем </h3>
+    <h3 id="first"> Нам цікаво познайомитись з вашим улюбленцем </h3>
     <form action="https://example.com/submit" method="post">
         <label for="name">Імя улюбленця</label>
         <input id="name" type="text" name="name" placeholder="Імя">
@@ -131,22 +131,23 @@
         <br>
         <h3>Ваша стать</h3>
         <label for="w1"> Жіноча</label>
-        <input id="w1" type="radio"  name="yoursex">
+        <input id="w1" type="radio" name="yoursex">
         <label for="m1"> Чоловіча </label>
         <input id="m1" type="radio" name="yoursex">
 
-      <p><b> Даю згоду на обробку інформації</b> </p>
+        <p><b> Даю згоду на обробку інформації</b></p>
         <label for="yes">Так</label>
         <input id="yes" type="checkbox" name="concert">
         <br>
-<button> Відправити</button>
+        <button class="bot"> Відправити</button>
     </form>
     <form>
-        <LABEL for="com">Залиште ваш комментар</LABEL>
+        <LABEL for="com">Залиште ваш коментар</LABEL>
         <br>
         <textarea placeholder="Пише" id="com"></textarea>
         <br>
-        <input type="submit" name="submit">
+
+        <input class="bot" type="submit" name="submit" id="submit" value="Відправити">
     </form>
     <nav>
         <a href="#start"> На початок сторінки </a>
