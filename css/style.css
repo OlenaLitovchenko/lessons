@@ -36,7 +36,7 @@ form {
   border-color: greenyellow;
   border-bottom-width:3px;
   border-style: dashed;
-  border-image-repeat: space;
+  border-radius: 30px;
 }
 .bold {
   font-weight: bolder;
