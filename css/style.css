@@ -1,36 +1,43 @@
 * {
   font-family: "Comic Sans MS", serif ;
 }
+
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
+
 h1 {
   color: aqua;
   font-weight: bold;
 }
+
 h2 {
   color: aquamarine;
 }
+
 form {
   color:purple;
 }
+
 .bot {
   background-color: purple;
   color: antiquewhite;
 }
+
 #first {
   color: darkcyan;
   font-style: italic;
 }
+
 .div1 {
   background-color: lightgreen;
   border-color: black;
   border-bottom-width:3px;
   border-style: solid;
-
 }
+
 .div2 {
   background-color: papayawhip;
   border-color: greenyellow;
@@ -38,6 +45,8 @@ form {
   border-style: dashed;
   border-radius: 30px;
 }
+
 .bold {
   font-weight: bolder;
 }
+
